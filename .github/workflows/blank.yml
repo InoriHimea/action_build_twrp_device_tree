@@ -6,11 +6,11 @@ on:
       LIBRARY_NAME:
         description: 'LIBRARY_NAME'
         required: true
-        default: 'Twrp_Device_Genter'
+        default: 'Twrp_Device_Builder'
       MANIFEST_URL:
         description: 'MANIFEST_URL'
         required: true
-        default: 'git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git'
+        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git'
       MANIFEST_BRANCH:
         description: 'LIBRARY_BRANCH'
         required: true
@@ -18,15 +18,15 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'Archytas'
+        default: 'a60q'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'omni_Archytas'
+        default: 'omni_a60q'
       IMG_URL:
         description: 'IMG_URL'
         required: true
-        default: 'https://github.com/Xpsoted/Action-Recovery-builder/releases/download/1404192362/recovery.img'
+        default: ''
 
 jobs:
   build:
