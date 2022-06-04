@@ -27,3 +27,7 @@
 ## 看不懂想要图文教程?
 - 看看隔壁那个用github编译twrp教程，与这个大同小异端
 - https://github.com/Xpsoted/Action-Recovery-builder/blob/main/README.md
+
+----
+没有对dt做修改的原生生成，先能启动再说，改了好多遍，一哈能启动，再调一哈就不能，麻了，各种无限循环开机，麻了麻了
+----
